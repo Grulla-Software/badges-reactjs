@@ -3,7 +3,7 @@
 [![License: ISC](https://img.shields.io/badge/license-ISC-yellow.svg)](https://github.com/Grulla-Software/tooltips-reactjs/blob/main/LICENSE.md) 
 [![GitHub package version](https://img.shields.io/badge/version-1.0.5-green.svg)](https://github.com/Grulla-Software/tooltips-reactjs)
 
-[![Video text](https://github.com/Grulla-Software/tooltips-reactjs/blob/main/img/imgHeading.png)](https://drive.google.com/file/d/1gMG9pYt41gY909DnMhaJsiCXFjA-ZzWu/view?usp=sharing)
+[![Video text](https://github.com/Grulla-Software/btn-badge-reactjs/blob/main/img/imgHeading.png)](https://drive.google.com/file/d/1gMG9pYt41gY909DnMhaJsiCXFjA-ZzWu/view?usp=sharing)
 
 # tooltips-reactjs 🚀
 Btn-badge-reactjs is an ideal button component to display additional information such as a message or notification counter or the number of products added to a shopping cart.
@@ -155,7 +155,7 @@ export default App;
 
 ```
 <p align="center">
-  <img src="https://github.com/Grulla-Software/tooltips-reactjs/blob/main/img/Video.gif" width ='100%'>
+  <img src="https://github.com/Grulla-Software/btn-badge-reactjs/blob/main/img/video.gif" width ='100%'>
 </p>
 
 ### Props of styles 📦
