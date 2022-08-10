@@ -1,11 +1,11 @@
 [![npm](https://badgen.net/npm/v/btn-badge-reactjs)](https://www.npmjs.com/package/btn-badge-reactjs) 
 [![Price](https://img.shields.io/badge/price-FREE-purple.svg)](https://github.com/Grulla-Software/btn-badge-reactjs/blob/main/LICENSE.md) 
 [![License: ISC](https://img.shields.io/badge/license-ISC-yellow.svg)](https://github.com/Grulla-Software/btn-badge-reactjs/blob/main/LICENSE.md) 
-[![GitHub package version](https://img.shields.io/badge/version-1.0.3-green.svg)](https://github.com/Grulla-Software/btn-badge-reactjs)
+[![GitHub package version](https://img.shields.io/badge/version-1.0.4-green.svg)](https://github.com/Grulla-Software/btn-badge-reactjs)
 
 [![Video text](https://github.com/Grulla-Software/btn-badge-reactjs/blob/main/img/imgHeading.png)](https://drive.google.com/file/d/1gMG9pYt41gY909DnMhaJsiCXFjA-ZzWu/view?usp=sharing)
 
-# tooltips-reactjs 🚀
+# btn-badge-reactjs 🚀
 Btn-badge-reactjs is an ideal button component to display additional information such as a message or notification counter or the number of products added to a shopping cart.
 This component has been developed so that it is totally modifiable and can be adapted to the needs of the developer, allowing it to meet the requested requirements.
 It is a lightweight component, very easy to use and elegant.
