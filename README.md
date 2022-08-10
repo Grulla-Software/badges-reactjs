@@ -1,7 +1,7 @@
-[![npm](https://badgen.net/npm/v/tooltips-reactjs)](https://www.npmjs.com/package/tooltips-reactjs) 
+[![npm](https://badgen.net/npm/v/btn-badge-reactjs)](https://www.npmjs.com/package/btn-badge-reactjs) 
 [![Price](https://img.shields.io/badge/price-FREE-purple.svg)](https://github.com/Grulla-Software/btn-badge-reactjs/blob/main/LICENSE.md) 
 [![License: ISC](https://img.shields.io/badge/license-ISC-yellow.svg)](https://github.com/Grulla-Software/btn-badge-reactjs/blob/main/LICENSE.md) 
-[![GitHub package version](https://img.shields.io/badge/version-1.0.5-green.svg)](https://github.com/Grulla-Software/btn-badge-reactjs)
+[![GitHub package version](https://img.shields.io/badge/version-1.0.2-green.svg)](https://github.com/Grulla-Software/btn-badge-reactjs)
 
 [![Video text](https://github.com/Grulla-Software/btn-badge-reactjs/blob/main/img/imgHeading.png)](https://drive.google.com/file/d/1gMG9pYt41gY909DnMhaJsiCXFjA-ZzWu/view?usp=sharing)
 
@@ -171,7 +171,6 @@ Props for component styles are displayed as a table with Name, Type, Default, an
 | `badgeOffsetY`      |`number`| `1`      | Indicates the movement offset on the Y axis of the badge. |
 | `badgeOffsetX`      |`number`| `-0.5`   | Indicates the movement offset on the X axis of the badge. |
 | `badgeWidth`        |`number`| `1`      | Indicates the width of the badge.                         |
-
 | `btnColor`          |`string`| `#fff`   | Indicates the text color of the button.                   |
 | `btnBackground`     |`string`| `198754` | Indicates the background color of the button.             |
 | `btnHoverColor`     |`string`| `#ffff`  | Indicates the text color of the button when hovering over the component.      |
