@@ -1,7 +1,7 @@
 [![npm](https://badgen.net/npm/v/tooltips-reactjs)](https://www.npmjs.com/package/tooltips-reactjs) 
-[![Price](https://img.shields.io/badge/price-FREE-purple.svg)](https://github.com/Grulla-Software/tooltips-reactjs/blob/main/LICENSE.md) 
-[![License: ISC](https://img.shields.io/badge/license-ISC-yellow.svg)](https://github.com/Grulla-Software/tooltips-reactjs/blob/main/LICENSE.md) 
-[![GitHub package version](https://img.shields.io/badge/version-1.0.5-green.svg)](https://github.com/Grulla-Software/tooltips-reactjs)
+[![Price](https://img.shields.io/badge/price-FREE-purple.svg)](https://github.com/Grulla-Software/btn-badge-reactjs/blob/main/LICENSE.md) 
+[![License: ISC](https://img.shields.io/badge/license-ISC-yellow.svg)](https://github.com/Grulla-Software/btn-badge-reactjs/blob/main/LICENSE.md) 
+[![GitHub package version](https://img.shields.io/badge/version-1.0.5-green.svg)](https://github.com/Grulla-Software/btn-badge-reactjs)
 
 [![Video text](https://github.com/Grulla-Software/btn-badge-reactjs/blob/main/img/imgHeading.png)](https://drive.google.com/file/d/1gMG9pYt41gY909DnMhaJsiCXFjA-ZzWu/view?usp=sharing)
 
@@ -51,24 +51,23 @@ function App() {
               btnText={'Badge Center Button'} 
               badgeText ={'4'}
               callBack={(event)=>{ console.log(event)}} 
-              badgeWidth={'1'}
-              badgeHeight={'1.2'}
-              badgeOffsetY={'0.2'}
-              badgeOffsetX={'-1'}
+              badgeWidth={1}
+              badgeOffsetY={0.2}
+              badgeOffsetX={-1}
               badgeBackground={'#0d6efd'}
               btnBackground={'#3d15e0'}
-              btnFontSize={'1.2'}
+              btnFontSize={1.2}
             />
             <br/>
             <BtnBadgesReactjs 
               btnText={'Badge Bottom Button'} 
               badgeText ={'2+'}
               callBack={(event)=>{ console.log(event)}}
-              badgeOffsetY={'1.5'}
-              badgeWidth={'1'}
+              badgeOffsetY={1.5}
+              badgeWidth={1}
               badgeBackground={'red'}
               btnBackground={'#8ac21c'}
-              btnFontSize={'1.2'}
+              btnFontSize={1.2}
               btnHoverBackground={'red'}
               btnColor={'black'}
               btnHoverColor={'white'}
@@ -78,9 +77,9 @@ function App() {
               btnText={<i className="bi bi-bell" style={{fontSize: '1.5rem', color: "yellow"}}></i>} 
               badgeText ={'2+'}
               callBack={(event)=>{ console.log(event)}}
-              badgeOffsetY={'1.5'}
-              badgeWidth={'1'}
-              btnFontSize={'1.2'}
+              badgeOffsetY={1.5}
+              badgeWidth={1}
+              btnFontSize={1.2}
               badgeBackground={'#0d6efd'}
               btnBackground={'#3d15e0'}
             />
@@ -92,13 +91,13 @@ function App() {
               btnText={'Badge Top Button'} 
               badgeText ={'7'}
               callBack={(event)=>{ console.log(event)}}
-              badgeBorderRadius="50" 
-              badgeWidth={'0.5'}
-              badgeOffsetY={'0.1'}
-              badgeOffsetX={'0.2'}
+              badgeBorderRadius={50}
+              badgeWidth={0.5}
+              badgeOffsetY={0.1}
+              badgeOffsetX={0.2}
               badgeBackground={'#c715e0'}
               btnBackground={'#1e15e0'}
-              btnFontSize={'1.2'}
+              btnFontSize={1.2}
               btnHoverBackground={'#c715e0'}
             />
             <br/>
@@ -106,13 +105,13 @@ function App() {
               btnText={'Badge Center Button'} 
               badgeText ={'4'}
               callBack={(event)=>{ console.log(event)}}
-              badgeBorderRadius="50" 
-              badgeWidth={'0.5'}
-              badgeOffsetY={'0.5'}
-              badgeOffsetX={'0.2'}
+              badgeBorderRadius={50} 
+              badgeWidth={0.5}
+              badgeOffsetY={0.5}
+              badgeOffsetX={0.2}
               badgeBackground={'#0d6efd'}
               btnBackground={'#3d15e0'}
-              btnFontSize={'1.2'}
+              btnFontSize={1.2}
             />
             <br/>
             <BtnBadgesReactjs 
@@ -120,12 +119,12 @@ function App() {
               badgeText ={'8'}
               callBack={(event)=>{ console.log(event)}}
               badgeBorderRadius="50" 
-              badgeWidth={'0.5'}
-              badgeOffsetY={'1'}
-              badgeOffsetX={'0.2'}
+              badgeWidth={0.5}
+              badgeOffsetY={1}
+              badgeOffsetX={0.2}
               badgeBackground={'red'}
               btnBackground={'#8ac21c'}
-              btnFontSize={'1.2'}
+              btnFontSize={1.2}
               btnHoverBackground={'red'}
               btnColor={'black'}
               btnHoverColor={'white'}
@@ -135,13 +134,13 @@ function App() {
               btnText={<i className="bi bi-envelope" style={{fontSize: '1.5rem', color: "yellow"}}></i>} 
               badgeText ={'3'}
               callBack={(event)=>{ console.log(event)}}
-              badgeBorderRadius="50" 
-              badgeWidth={'0.7'}
-              badgeOffsetY={'0.5'}
-              badgeOffsetX={'0.1'}
+              badgeBorderRadius={50}
+              badgeWidth={0.7}
+              badgeOffsetY={0.5}
+              badgeOffsetX={0.1}
               badgeBackground={'#0d6efd'}
               btnBackground={'#3d15e0'}
-              btnFontSize={'1.2'}
+              btnFontSize={1.2}
             />
             <br/>
           </div>
@@ -164,25 +163,39 @@ Props for component styles are displayed as a table with Name, Type, Default, an
 
 **Required props are marked with `*`.**
 
-| Name          | Type   | Default    | Description                                        |
-| ------------- | ------ | ---------- | -------------------------------------------------- |
-| `width`       |`string`| `150px`    | Indicates the width of tooltip component.          |
-| `height`      |`string`| `30px`     | Indicates the height of tooltip component.         |
-| `background`  |`string`| `#0000005b`| Indicates the background of tooltip component.     |
-| `fontSize`    |`string`| `1rem`     | Indicates the text size of tooltip component.      |
-| `color`       |`string`| `#fff`     | Indicates the text color of tooltip component.     |
-| `borderRadius`|`string`| `3px`      | Indicates the border radius of tooltip component.   |
+| Name                | Type   | Default  | Description                                               |
+| --------------------| ------ | -------- | --------------------------------------------------------- |
+| `badgeBackground`   |`string`| `#0d6efd`| Indicates the background color of the badge.              |
+| `badgeColor`        |`string`| `#fff`   | Indicates the badge text color.                           |
+| `badgeBorderRadius` |`number`| `10`     | Indicates the radius border of badge.                     |
+| `badgeOffsetY`      |`number`| `1`      | Indicates the movement offset on the Y axis of the badge. |
+| `badgeOffsetX`      |`number`| `-0.5`   | Indicates the movement offset on the X axis of the badge. |
+| `badgeWidth`        |`number`| `1`      | Indicates the width of the badge.                         |
+
+| `btnColor`          |`string`| `#fff`   | Indicates the text color of the button.                   |
+| `btnBackground`     |`string`| `198754` | Indicates the background color of the button.             |
+| `btnHoverColor`     |`string`| `#ffff`  | Indicates the text color of the button when hovering over the component.      |
+| `btnHoverBackground`|`string`| `#0d6efd`| Indicates the background color of the button when hovering over the component.|
+| `btnFontSize`       |`number`| `1`      | Indicates the text size of the button.                     |
+| `btnBorderRadius`   |`number`| `3`      | Indicates the border radius of button.                     |
 
 ### Additional usage information 📋
 
 Additional information about using the component pros.
 
-- **width**: Use this prop to indicate the width of tooltip component. Specify this as a `string` and in pixel format ("30px") or percentage format ("10%").
-- **height**: Use this prop to indicate the heightof tooltip component. Specify this as a `string` and in pixel format ("30px") or percentage format ("10%").
-- **background**: Use this prop for indicate the background color of tooltip component. Specify this value as a `string`, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of color ("red").
-- **fontSize**: Use this prop to indicate the size of text for tooltip component. Specify this as a `string` and in pixel format ("20px") or REM format ("1rem") or EM format ("1em") or the name of size("smaller", "medium", "large", " larger", "x-large", "xx-large").
-- **color**: Use this prop for indicate the text color of tooltip component. Specify this value as a `string`, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of the color ("white").
-- **borderRadius**: Use this prop for indicate the border radius of tooltip component. This value is indicated as a `string` and percentage format for example: "10%" or "50%".
+- **badgeBackground**: Use this prop for indicate the background color of badge component. Specify this value as a `string`, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of color ("red").
+- **badgeColor**: Use this prop for indicate the text color of badge component. Specify this value as a `string`, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of the color ("white").
+- **badgeBorderRadius**: Use this prop for indicate the border radius of badge component. This value is indicated as a `number int or decimal`  for example:  1 or 0.5.
+- **badgeOffsetY**: Use this prop indicates the Y-axis offset for badge component. This must be indicated as a `number int or decimal ` for example: 1 or 0.5.
+- **badgeOffsetX**: Use this prop indicates the X-axis offset for badge component. This must be indicated as a `number int or decimal ` for example: 1 or 0.5.
+- **badgeWidth**: Use this prop to indicate the width of the badge component. This value is indicated as an `whole number or decimal` for example: 1 or 0.5. The height of the component badge is assigned dynamically, based on the assigned width.
+
+- **btnColor**: Use this prop for indicate the text color of button component. Specify this value as a `string`, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of the color ("white").
+- **btnBackground**: Use this prop for indicate the background color of button component. Specify this value as a `string`, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of color ("red").
+- **btnHoverColor**: Use this prop to indicate the text color of the button when hovering over the component. Specify this value as a `string`, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% )") or the name of color ("red")..
+- **btnHoverBackground**: Use this prop to indicate the background color of the button when hovering over the component. Specify this value as a `string`, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of color ("red")
+- **btnFontSize**: Use this prop to indicate the text size of the button. This must be indicated as a `number int or decimal ` for example: 1 or 0.5.
+- **badgeBorderRadius**: Use this prop for indicate the border radius of the button component. This value is indicated as a `number int or decimal`  for example:  1 or 0.5.
 
 ### Props for functionality 📦
 
@@ -190,22 +203,20 @@ Props for component functionality are displayed as a table with Name, Type, Defa
 
 **Required props are marked with `*`.**
 
-| Name      | Type         | Default | Description                                                   |
-| --------- | -------      | ------- | ------------------------------------------------------------- |
-| `text`\*  | `JSX.Element`| ` `     | Indicates the content that the tooltip component will display.|
-| `type`    | `string`     | `top`   | Indicates the type of tooltip component.                      |
-| `offsetY` | `number`     | `80`    | Indicates the Y-axis offset for tooltip component.        |
-| `offsetX` | `number`     | `110`   | Indicates the X-axis offset for tooltip component.        |
+| Name         | Type         | Default | Description                                                  |
+| ------------ | -------      | ------- | ------------------------------------------------------------ |
+| `badgeText`\*| `JSX.Element`| ` `     | Indicates the content that the badge component will display. |
+| `btnText`    | `JSX.Element`| ` `     | Indicates the content that the button component will display. |
+| `callBack`   | `function`   | ` `     | Indicates the callback function that will receive the click event of the button element.           |
 
 
 ### Additional usage information 📋
 
 Additional information about using the component pros.
 
-- **text**: Use this prop to indicate the content that the tooltip component will display. This must be indicated as a `string` or as an `html element`.
-- **type**: Use this prop to indicate the type of the tooltip component. This must be given as a `string` and the supported values are `top` or `bottom` or `left` or `right`.
-- **offsetY**: Use this prop indicates the Y-axis offset for tooltip component. This must be indicated as a `number` for example: 10 or 20 or 30.
-- **offsetX**: Use this prop indicates the X-axis offset for tooltip component. This must be indicated as a `number` for example: 10 or 20 or 30.
+- **badgeText**: Use this prop to indicate the content that the badge component will display. This must be indicated as a `string` or as an `html element`.
+- **btnText**: Use this prop to indicate the content that the button component will display. This must be indicated as a `string` or as an `html element`.
+- **callBack**: Use this prop to indicate the callback function for the click event of the button component. This must be indicated as a `function` and must receive a parameter.
 
 ## Authors ✒️
 
