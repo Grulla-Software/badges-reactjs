@@ -1,0 +1,76 @@
+{
+  "name": "btn-badge-reactjs",
+  "version": "1.0.1",
+  "description": "Button Badge Component",
+  "main": "build/index.js",
+  "scripts": {
+    "clean": "rm build/index.js",
+    "start": "webpack --mode development --config ./webpack.config.js --watch",
+    "build": "webpack --mode production --config ./webpack.config.js --progress",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grulla-Software/btn-badge-reactjs.git"
+  },
+  "author": {
+    "name": "Marvin Calvo A.",
+    "email": "mar90jesus@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Grulla-Software/btn-badge-reactjs/issues"
+  },
+  "homepage": "https://github.com/Grulla-Software/btn-badge-reactjs#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/preset-react": "^7.18.6",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.19.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.0",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-watch": "^8.0.0",
+    "proptypes": "^1.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.7.4",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-component",
+    "component",
+    "badges",
+    "badge",
+    "react-badges",
+    "react-badge",
+    "react badges",
+    "react badge",
+    "react-badgesjs",
+    "react-badgejs",
+    "badges-react",
+    "badge-react",
+    "badges react",
+    "badge reactjs",
+    "badges-reactjs",
+    "badges reactjs"
+  ]
+}
