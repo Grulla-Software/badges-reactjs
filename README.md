@@ -206,8 +206,8 @@ Props for component functionality are displayed as a table with Name, Type, Defa
 | Name         | Type         | Default | Description                                                  |
 | ------------ | -------      | ------- | ------------------------------------------------------------ |
 | `badgeText`\*| `JSX.Element`| ` `     | Indicates the content that the badge component will display. |
-| `btnText`    | `JSX.Element`| ` `     | Indicates the content that the button component will display. |
-| `callBack`   | `function`   | ` `     | Indicates the callback function that will receive the click event of the button element.           |
+| `btnText`\*  | `JSX.Element`| ` `     | Indicates the content that the button component will display. |
+| `callBack`\* | `function`   | ` `     | Indicates the callback function that will receive the click event of the button element.           |
 
 
 ### Additional usage information 📋
