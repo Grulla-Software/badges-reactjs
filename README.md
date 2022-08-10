@@ -20,7 +20,7 @@ You must open the command console at the root of your project and execute the co
 
 ## Demo 💻
 
-[Click me to go to the demo on codeSandbox!](https://codesandbox.io/embed/tooltips-reactjs-j3ymmk?fontsize=14&hidenavigation=1&theme=dark)
+[Click me to go to the demo on codeSandbox!](https://codesandbox.io/embed/btn-badge-reactj-l8fum4?fontsize=14&hidenavigation=1&theme=dark)
 
 
 ## Usage 🛠️
