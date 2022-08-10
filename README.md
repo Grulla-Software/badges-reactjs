@@ -1,7 +1,7 @@
 [![npm](https://badgen.net/npm/v/btn-badge-reactjs)](https://www.npmjs.com/package/btn-badge-reactjs) 
 [![Price](https://img.shields.io/badge/price-FREE-purple.svg)](https://github.com/Grulla-Software/btn-badge-reactjs/blob/main/LICENSE.md) 
 [![License: ISC](https://img.shields.io/badge/license-ISC-yellow.svg)](https://github.com/Grulla-Software/btn-badge-reactjs/blob/main/LICENSE.md) 
-[![GitHub package version](https://img.shields.io/badge/version-1.0.2-green.svg)](https://github.com/Grulla-Software/btn-badge-reactjs)
+[![GitHub package version](https://img.shields.io/badge/version-1.0.3-green.svg)](https://github.com/Grulla-Software/btn-badge-reactjs)
 
 [![Video text](https://github.com/Grulla-Software/btn-badge-reactjs/blob/main/img/imgHeading.png)](https://drive.google.com/file/d/1gMG9pYt41gY909DnMhaJsiCXFjA-ZzWu/view?usp=sharing)
 
